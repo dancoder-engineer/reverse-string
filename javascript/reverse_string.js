@@ -1,5 +1,10 @@
-function reverseString(str) {
-  // type your code here
+function reverseString(inp) {
+  let n = inp.length - 1
+	let word = ""
+	while (n > -1) {
+		word += inp.slice(n, n+1)
+		n -= 1
+	}
 }
 
 if (require.main === module) {
